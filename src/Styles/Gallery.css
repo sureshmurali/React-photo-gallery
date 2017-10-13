@@ -1,0 +1,58 @@
+.FullScreenHeight {
+  height: 100vh;
+  text-align: center;
+}
+
+/**Iphone 5 and Small smartphone*/
+
+@media only screen and (max-width: 350px) {
+  .GalleryLayout {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/** Smartphones*/
+
+@media only screen and (min-width: 350px) and (max-width: 768px) {
+  .GalleryLayout {
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .GalleryLayout {
+    padding: 40px;
+  }
+}
+
+/**Laptops and PCS*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .GalleryLayout {
+    padding: 35px;
+    padding-left: 100px;
+  }
+  .GalleryPadding {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1440px) {
+  .GalleryLayout {
+    padding: 40px;
+    padding-left: 100px;
+  }
+  .GalleryPadding {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}

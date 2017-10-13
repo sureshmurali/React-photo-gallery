@@ -7,7 +7,7 @@ class AboutMe extends Component {
   render() {
     return (
       <div>
-        <Row className="FullScreenHeight">
+        <Row>
           <Col xs={12} sm={12} md={7} className="TextLayout">
             <div className="PageTitle">
             About me
