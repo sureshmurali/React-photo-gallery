@@ -5,7 +5,7 @@
 
 .Menu
 {
-  padding:100px;
+  padding:60px;
 }
 
 .HeroImage
@@ -22,7 +22,14 @@
 }
 
 .UserNameStyle {
-  font-family: 'Bromello';
-  font-size: 150px;
+  font-family: 'Bromello', sans-serif;
+  font-size: 160px;
+  text-align: center;
+}
+
+.TinyDescStyle {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 200;
   text-align: center;
 }
