@@ -1,0 +1,107 @@
+.FullScreenHeight {
+  height: 100vh;
+}
+
+.SecondHeroImage {
+  background-image: url("../Images/Hero2.png");
+  height: 100%;
+  background-size: cover;
+  max-width: 100%;
+}
+
+/**Iphone 5 and Small smartphone*/
+
+@media only screen and (max-width: 350px) {
+  .TextLayout {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .UserNameStyle {
+    font-family: 'Bromello', sans-serif;
+    font-size: 80px;
+    text-align: center;
+  }
+  .AboutMeText {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+  }
+}
+
+/** Smartphones*/
+
+@media only screen and (min-width: 350px) and (max-width: 768px) {
+  .TextLayout {
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .UserNameStyle {
+    font-family: 'Bromello', sans-serif;
+    font-size: 100px;
+    text-align: center;
+  }
+  .AboutMeText {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .TextLayout {
+    padding: 40px;
+    padding-left: 50px;
+  }
+  .UserNameStyle {
+    font-family: 'Bromello', sans-serif;
+    font-size: 150px;
+    text-align: center;
+  }
+  .AboutMeText {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 200;
+    margin-bottom: 25px;
+  }
+}
+
+/**Laptops and PCS*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .TextLayout {
+    padding: 35px;
+    padding-left: 100px;
+  }
+  .UserNameStyle {
+    font-family: 'Bromello', sans-serif;
+    font-size: 140px;
+    text-align: center;
+  }
+  .AboutMeText {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+  }
+}
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1440px) {
+  .TextLayout {
+    padding: 40px;
+    padding-left: 100px;
+  }
+  .UserNameStyle {
+    font-family: 'Bromello', sans-serif;
+    font-size: 140px;
+    text-align: center;
+  }
+  .AboutMeText {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+  }
+}
