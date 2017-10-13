@@ -1,3 +1,9 @@
 .App {
   text-align: center;
 }
+
+.NoPadding
+{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}

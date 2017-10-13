@@ -1,0 +1,28 @@
+.FullScreenHeight
+{
+  height:100vh;
+}
+
+.Menu
+{
+  padding:100px;
+}
+
+.HeroImage
+{
+  background-image: url("../Images/Hero.png");
+  height:100%;
+  background-size: cover;
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: 'Bromello';
+  src: url('./Fonts/bromello.ttf'); /* IE9 Compat Modes */
+}
+
+.UserNameStyle {
+  font-family: 'Bromello';
+  font-size: 150px;
+  text-align: center;
+}
