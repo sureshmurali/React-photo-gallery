@@ -6,7 +6,7 @@ class Hero extends Component {
   render() {
     return (
       <div>
-        <Row className="FullScreenHeight">
+        <Row>
           <Col xs={12} sm={12} md={7} className="Menu">
             <div>
               <div className="UserNameStyle">Melissa</div>
