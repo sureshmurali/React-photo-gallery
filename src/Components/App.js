@@ -4,6 +4,7 @@ import {Grid} from 'react-flexbox-grid';
 import Hero from './Hero.js'
 import AboutMe from './AboutMe.js'
 import Gallery from './Gallery.js'
+import Schedule from './Schedule.js'
 
 class App extends Component {
   render() {
@@ -20,6 +21,10 @@ class App extends Component {
         <br></br>
         <Grid fluid className="NoPadding">
           <Gallery/>
+        </Grid>
+        <br></br>
+        <Grid fluid>
+          <Schedule/>
         </Grid>
 
       </div>
