@@ -1,0 +1,167 @@
+.TextCenter {
+  text-align: center;
+}
+
+.Candy {
+  background-image: url("../Images/Candy.png");
+}
+
+.Lollipop {
+  background-image: url("../Images/Lollipop.png");
+}
+
+.Icecream {
+  background-image: url("../Images/Icecream.png");
+}
+
+.Champagne {
+  background-image: url("../Images/Champagne.png");
+}
+
+/**Iphone 5 and Small smartphone*/
+
+@media only screen and (max-width: 350px) {
+  .RateCard {
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+    border-radius: 15px;
+    padding: 8px;
+    text-align: -webkit-center;
+    margin-top: 20px;
+  }
+  .EmojiStyle {
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+  }
+  .TimeLimitStyle {
+    font-size: 22px;
+  }
+  .IncallStyle {
+    font-size: 15px;
+  }
+  .OutcallStyle {
+    font-size: 15px;
+  }
+}
+
+/** Smartphones*/
+
+@media only screen and (min-width: 350px) and (max-width: 768px) {
+  .RateCard {
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+    border-radius: 15px;
+    padding: 8px;
+    text-align: -webkit-center;
+    margin-top: 20px;
+  }
+  .EmojiStyle {
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+  }
+  .TimeLimitStyle {
+    font-size: 30px;
+  }
+  .IncallStyle {
+    font-size: 20px;
+  }
+  .OutcallStyle {
+    font-size: 20px;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .RateCard {
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+    border-radius: 15px;
+    padding: 8px;
+    text-align: -webkit-center;
+    margin-top: 20px;
+    margin:10px;
+  }
+  .EmojiStyle {
+    background-size: cover;
+    width: 75px;
+    height: 62px;
+  }
+  .TimeLimitStyle {
+    padding-left: 2px;
+font-size: 30px;
+
+  }
+  .IncallStyle {
+    text-align: center;
+    font-size: 20px;
+  }
+  .OutcallStyle {
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+/**Laptops and PCS*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .RateCard {
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+    border-radius: 15px;
+    padding: 8px;
+    text-align: -webkit-center;
+    margin-top: 20px;
+    margin:15px;
+  }
+  .EmojiStyle {
+    background-size: cover;
+    width: 125px;
+    height: 125px;
+  }
+  .TimeLimitStyle {
+font-size: 45px;
+
+  }
+  .IncallStyle {
+    text-align: center;
+    font-size: 25px;
+  }
+  .OutcallStyle {
+    text-align: center;
+    font-size: 25px;
+  }
+}
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1440px) {
+  .RateCard {
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+    border-radius: 15px;
+    padding: 8px;
+    text-align: -webkit-center;
+    margin-top: 20px;
+    margin:20px;
+  }
+  .EmojiStyle {
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+  }
+  .TimeLimitStyle {
+font-size: 50px;
+
+  }
+  .IncallStyle {
+    text-align: center;
+    font-size: 30px;
+  }
+  .OutcallStyle {
+    text-align: center;
+    font-size: 30px;
+  }
+}

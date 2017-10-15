@@ -1,18 +1,15 @@
-
+.MyTours {
+  padding-top: 50px;
+  text-align: center;
+}
 
 /**Iphone 5 and Small smartphone*/
 
 @media only screen and (max-width: 350px) {
-  .MyTours {
-    padding-top: 50px;
-    text-align: center;
-  }
-
   .ScheduleCardSpacing {
     padding-left: 0px;
     padding-right: 0px;
   }
-
   .ScheduleCard {
     background-image: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../Images/Korea.jpeg");
     background-size: cover;
@@ -20,7 +17,6 @@
     border-radius: 20px;
     position: relative;
   }
-
   .CountryName {
     position: absolute;
     color: white;
@@ -29,7 +25,6 @@
     left: 20px;
     top: 15px;
   }
-
   .CityName {
     position: absolute;
     color: white;
@@ -38,7 +33,6 @@
     left: 20px;
     top: 60px;
   }
-
   .ScheduleDate {
     position: absolute;
     color: white;
@@ -52,16 +46,10 @@
 /** Smartphones*/
 
 @media only screen and (min-width: 350px) and (max-width: 768px) {
-  .MyTours {
-    padding-top: 50px;
-    text-align: center;
-  }
-
   .ScheduleCardSpacing {
     padding-left: 5px;
     padding-right: 5px;
   }
-
   .ScheduleCard {
     background-image: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../Images/Korea.jpeg");
     background-size: cover;
@@ -69,7 +57,6 @@
     border-radius: 20px;
     position: relative;
   }
-
   .CountryName {
     position: absolute;
     color: white;
@@ -78,7 +65,6 @@
     left: 20px;
     top: 15px;
   }
-
   .CityName {
     position: absolute;
     color: white;
@@ -87,7 +73,6 @@
     left: 20px;
     top: 60px;
   }
-
   .ScheduleDate {
     position: absolute;
     color: white;
@@ -101,16 +86,10 @@
 /* iPads (portrait and landscape) ----------- */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .MyTours {
-    padding-top: 50px;
-    text-align: center;
-  }
-
   .ScheduleCardSpacing {
     padding-left: 50px;
     padding-right: 50px;
   }
-
   .ScheduleCard {
     background-image: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../Images/Korea.jpeg");
     background-size: cover;
@@ -118,7 +97,6 @@
     border-radius: 50px;
     position: relative;
   }
-
   .CountryName {
     position: absolute;
     color: white;
@@ -127,7 +105,6 @@
     left: 40px;
     top: 30px;
   }
-
   .CityName {
     position: absolute;
     color: white;
@@ -136,7 +113,6 @@
     left: 40px;
     top: 105px;
   }
-
   .ScheduleDate {
     position: absolute;
     color: white;
@@ -150,16 +126,10 @@
 /**Laptops and PCS*/
 
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
-  .MyTours {
-    padding-top: 50px;
-    text-align: center;
-  }
-
   .ScheduleCardSpacing {
     padding-left: 250px;
     padding-right: 250px;
   }
-
   .ScheduleCard {
     background-image: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../Images/Korea.jpeg");
     background-size: cover;
@@ -167,7 +137,6 @@
     border-radius: 50px;
     position: relative;
   }
-
   .CountryName {
     position: absolute;
     color: white;
@@ -176,7 +145,6 @@
     left: 40px;
     top: 30px;
   }
-
   .CityName {
     position: absolute;
     color: white;
@@ -185,7 +153,6 @@
     left: 40px;
     top: 105px;
   }
-
   .ScheduleDate {
     position: absolute;
     color: white;
@@ -199,16 +166,10 @@
 /* Large screens ----------- */
 
 @media only screen and (min-width: 1440px) {
-  .MyTours {
-    padding-top: 50px;
-    text-align: center;
-  }
-
   .ScheduleCardSpacing {
     padding-left: 300px;
     padding-right: 300px;
   }
-
   .ScheduleCard {
     background-image: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../Images/Korea.jpeg");
     background-size: cover;
@@ -216,7 +177,6 @@
     border-radius: 50px;
     position: relative;
   }
-
   .CountryName {
     position: absolute;
     color: white;
@@ -225,7 +185,6 @@
     left: 40px;
     top: 30px;
   }
-
   .CityName {
     position: absolute;
     color: white;
@@ -234,7 +193,6 @@
     left: 40px;
     top: 120px;
   }
-
   .ScheduleDate {
     position: absolute;
     color: white;

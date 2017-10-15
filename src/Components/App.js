@@ -5,6 +5,7 @@ import Hero from './Hero.js'
 import AboutMe from './AboutMe.js'
 import Gallery from './Gallery.js'
 import Schedule from './Schedule.js'
+import Rates from './Rates.js'
 
 class App extends Component {
   render() {
@@ -25,6 +26,10 @@ class App extends Component {
         <br></br>
         <Grid fluid>
           <Schedule/>
+        </Grid>
+        <br></br>
+        <Grid fluid>
+          <Rates/>
         </Grid>
 
       </div>
