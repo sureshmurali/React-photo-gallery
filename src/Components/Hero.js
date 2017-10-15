@@ -29,7 +29,7 @@ class Hero extends Component {
               <div className="CandyButts VioletOrangeGradient">Contact</div>
             </div>
           </Col>
-          <Col xs={0} sm={0} md={5}>
+          <Col xs={12} sm={12} md={5}>
             <div className="HeroImage"></div>
           </Col>
         </Row>

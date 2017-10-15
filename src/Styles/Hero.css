@@ -2,12 +2,7 @@
   height: 100vh;
 }
 
-.HeroImage {
-  background-image: url("../Images/Hero.png");
-  height: 100%;
-  background-size: cover;
-  max-width: 100%;
-}
+
 
 @font-face {
   font-family: 'Bromello';
@@ -44,6 +39,12 @@
     max-width: 180px;
     padding: 9px;
   }
+  .HeroImage {
+    background-image: url("../Images/Hero.png");
+    height: 80vh;
+    background-size: cover;
+    max-width: 100%;
+  }
 }
 
 /** Smartphones*/
@@ -74,6 +75,12 @@
     font-size: 26px;
     max-width: 230px;
     padding: 9px;
+  }
+  .HeroImage {
+    background-image: url("../Images/Hero.png");
+    height: 80vh;
+    background-size: cover;
+    max-width: 100%;
   }
 }
 
@@ -107,6 +114,12 @@
     max-width: 280px;
     padding: 9px;
   }
+  .HeroImage {
+    background-image: url("../Images/Hero.png");
+    height: 100%;
+    background-size: cover;
+    max-width: 100%;
+  }
 }
 
 /**Laptops and PCS*/
@@ -138,6 +151,12 @@
     max-width: 250px;
     padding: 9px;
   }
+  .HeroImage {
+    background-image: url("../Images/Hero.png");
+    height: 100%;
+    background-size: cover;
+    max-width: 100%;
+  }
 }
 
 /* Large screens ----------- */
@@ -168,6 +187,12 @@
     font-size: 30px;
     max-width: 250px;
     padding: 9px;
+  }
+  .HeroImage {
+    background-image: url("../Images/Hero.png");
+    height: 100%;
+    background-size: cover;
+    max-width: 100%;
   }
 }
 

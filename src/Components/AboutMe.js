@@ -23,8 +23,9 @@ class AboutMe extends Component {
             Her one desire is to make your illicit fantasies come true. The complete brains and bombshell package, Melissa is going to sweep you off your feet and leave you purring like a pussycat for years to come.
             So whether you are yearning for a sensual touch of fabulous company, seeking to explore your fantasies with your own private model or a couple looking to inject some spice. Miss Melissa is only a phone call away.
             </div>
+            <br></br>
           </Col>
-          <Col xs={0} sm={0} md={5}>
+          <Col xs={12} sm={12} md={5}>
             <div className="SecondHeroImage"></div>
           </Col>
         </Row>

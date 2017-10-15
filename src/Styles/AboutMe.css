@@ -2,13 +2,6 @@
   height: 100vh;
 }
 
-.SecondHeroImage {
-  background-image: url("../Images/Hero2.png");
-  height: 100%;
-  background-size: cover;
-  max-width: 100%;
-}
-
 /**Iphone 5 and Small smartphone*/
 
 @media only screen and (max-width: 350px) {
@@ -26,6 +19,12 @@
     font-family: 'Nunito Sans', sans-serif;
     font-size: 13px;
     font-weight: 200;
+  }
+  .SecondHeroImage {
+    background-image: url("../Images/Hero2.png");
+    height: 80vh;
+    background-size: cover;
+    max-width: 100%;
   }
 }
 
@@ -47,6 +46,12 @@
     font-size: 15px;
     font-weight: 200;
   }
+  .SecondHeroImage {
+    background-image: url("../Images/Hero2.png");
+    height: 80vh;
+    background-size: cover;
+    max-width: 100%;
+  }
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -67,6 +72,12 @@
     font-weight: 200;
     margin-bottom: 25px;
   }
+  .SecondHeroImage {
+    background-image: url("../Images/Hero2.png");
+    height: 100%;
+    background-size: cover;
+    max-width: 100%;
+  }
 }
 
 /**Laptops and PCS*/
@@ -86,6 +97,12 @@
     font-size: 18px;
     font-weight: 200;
   }
+  .SecondHeroImage {
+    background-image: url("../Images/Hero2.png");
+    height: 100%;
+    background-size: cover;
+    max-width: 100%;
+  }
 }
 
 /* Large screens ----------- */
@@ -103,5 +120,11 @@
   .AboutMeText {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 22px;
+  }
+  .SecondHeroImage {
+    background-image: url("../Images/Hero2.png");
+    height: 100%;
+    background-size: cover;
+    max-width: 100%;
   }
 }
