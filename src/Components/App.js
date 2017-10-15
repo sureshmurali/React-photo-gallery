@@ -6,6 +6,7 @@ import AboutMe from './AboutMe.js'
 import Gallery from './Gallery.js'
 import Schedule from './Schedule.js'
 import Rates from './Rates.js'
+import Contact from './Contact.js'
 
 class App extends Component {
   render() {
@@ -30,6 +31,9 @@ class App extends Component {
         <br></br>
         <Grid fluid>
           <Rates/>
+        </Grid>
+        <Grid fluid>
+          <Contact/>
         </Grid>
 
       </div>

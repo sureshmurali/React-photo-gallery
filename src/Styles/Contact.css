@@ -1,0 +1,168 @@
+.TextCenter {
+  text-align: -webkit-center;
+}
+
+.Bold {
+  font-weight: bold;
+}
+
+
+/**Iphone 5 and Small smartphone*/
+
+@media only screen and (max-width: 350px) {
+  .WhatsappLogo
+  {
+    background-image: url("../Images/Whatsapp.png");
+      height: 150px;
+      width: 150px;
+      background-size: cover;
+  }
+
+  .WhatsappDetails
+  {
+    font-size:35px;
+    font-family: 'Nunito Sans';
+  }
+
+  .LineLogo
+  {
+    background-image: url("../Images/Line.png");
+    height: 148px;
+    width: 150px;
+    background-size: cover;
+  }
+
+  .LineDetails
+  {
+    font-size:35px;
+    font-family: 'Nunito Sans';
+  }
+}
+
+/** Smartphones*/
+
+@media only screen and (min-width: 350px) and (max-width: 768px) {
+  .WhatsappLogo
+  {
+    background-image: url("../Images/Whatsapp.png");
+      height: 150px;
+      width: 150px;
+      background-size: cover;
+  }
+
+  .WhatsappDetails
+  {
+    font-size:40px;
+    font-family: 'Nunito Sans';
+  }
+
+  .LineLogo
+  {
+    background-image: url("../Images/Line.png");
+    height: 146px;
+    width: 150px;
+    background-size: cover;
+  }
+
+  .LineDetails
+  {
+    font-size:40px;
+    font-family: 'Nunito Sans';
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .WhatsappLogo
+  {
+    background-image: url("../Images/Whatsapp.png");
+      height: 250px;
+      width: 250px;
+      background-size: cover;
+  }
+
+  .WhatsappDetails
+  {
+    font-size:60px;
+    font-family: 'Nunito Sans';
+  }
+
+  .LineLogo
+  {
+    background-image: url("../Images/Line.png");
+    height: 243px;
+    width: 250px;
+    background-size: cover;
+  }
+
+  .LineDetails
+  {
+    font-size:60px;
+    font-family: 'Nunito Sans';
+  }
+}
+
+/**Laptops and PCS*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .WhatsappLogo
+  {
+    background-image: url("../Images/Whatsapp.png");
+      height: 250px;
+      width: 250px;
+      background-size: cover;
+  }
+
+  .WhatsappDetails
+  {
+    font-size:60px;
+    font-family: 'Nunito Sans';
+  }
+
+  .LineLogo
+  {
+    background-image: url("../Images/Line.png");
+    height: 243px;
+    width: 250px;
+    background-size: cover;
+  }
+
+  .LineDetails
+  {
+    font-size:60px;
+    font-family: 'Nunito Sans';
+  }
+}
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1440px) {
+  .WhatsappLogo
+  {
+    background-image: url("../Images/Whatsapp.png");
+      height: 250px;
+      width: 250px;
+      background-size: cover;
+  }
+
+  .WhatsappDetails
+  {
+    font-size:60px;
+    font-family: 'Nunito Sans';
+  }
+
+  .LineLogo
+  {
+    background-image: url("../Images/Line.png");
+    height: 243px;
+    width: 250px;
+    background-size: cover;
+  }
+
+  .LineDetails
+  {
+    font-size:60px;
+    font-family: 'Nunito Sans';
+  }
+}
