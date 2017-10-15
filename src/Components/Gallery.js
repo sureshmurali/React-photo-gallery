@@ -15,16 +15,16 @@ class Gallery extends Component {
 
     const images = [
       {
-        original: 'https://i.imgur.com/IxJdpRj.jpg',
-        thumbnail: 'https://i.imgur.com/IxJdpRjb.jpg'
+        original: 'https://i.imgur.com/pmWDm5W.jpg',
+        thumbnail: 'https://i.imgur.com/pmWDm5Wb.jpg'
       },
       {
         original: 'https://i.imgur.com/QMt7YoU.jpg',
         thumbnail: 'https://i.imgur.com/QMt7YoUb.jpg'
       },
       {
-        original: 'https://i.imgur.com/pmWDm5W.jpg',
-        thumbnail: 'https://i.imgur.com/pmWDm5Wb.jpg'
+        original: 'https://i.imgur.com/IxJdpRj.jpg',
+        thumbnail: 'https://i.imgur.com/IxJdpRjb.jpg'
       },
       {
         original: 'https://i.imgur.com/ptoYtOA.jpg',
@@ -62,7 +62,7 @@ class Gallery extends Component {
 
     return (
       <div>
-        <Row className="FullScreenHeight">
+        <Row className="TextCenter">
           <Col xs={12} className="GalleryLayout">
             <div className="PageTitle">Gallery</div>
             <br></br>

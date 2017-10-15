@@ -1,0 +1,246 @@
+
+
+/**Iphone 5 and Small smartphone*/
+
+@media only screen and (max-width: 350px) {
+  .MyTours {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .ScheduleCardSpacing {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .ScheduleCard {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../Images/Korea.jpeg");
+    background-size: cover;
+    height: 250px;
+    border-radius: 20px;
+    position: relative;
+  }
+
+  .CountryName {
+    position: absolute;
+    color: white;
+    font-family: "Nunito sans";
+    font-size: 30px;
+    left: 20px;
+    top: 15px;
+  }
+
+  .CityName {
+    position: absolute;
+    color: white;
+    font-family: "Nunito sans";
+    font-size: 15px;
+    left: 20px;
+    top: 60px;
+  }
+
+  .ScheduleDate {
+    position: absolute;
+    color: white;
+    font-family: "Nunito sans";
+    font-size: 25px;
+    right: 20px;
+    top: 210px;
+  }
+}
+
+/** Smartphones*/
+
+@media only screen and (min-width: 350px) and (max-width: 768px) {
+  .MyTours {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .ScheduleCardSpacing {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .ScheduleCard {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../Images/Korea.jpeg");
+    background-size: cover;
+    height: 250px;
+    border-radius: 20px;
+    position: relative;
+  }
+
+  .CountryName {
+    position: absolute;
+    color: white;
+    font-family: "Nunito sans";
+    font-size: 30px;
+    left: 20px;
+    top: 15px;
+  }
+
+  .CityName {
+    position: absolute;
+    color: white;
+    font-family: "Nunito sans";
+    font-size: 15px;
+    left: 20px;
+    top: 60px;
+  }
+
+  .ScheduleDate {
+    position: absolute;
+    color: white;
+    font-family: "Nunito sans";
+    font-size: 25px;
+    right: 20px;
+    top: 210px;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .MyTours {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .ScheduleCardSpacing {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .ScheduleCard {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../Images/Korea.jpeg");
+    background-size: cover;
+    height: 420px;
+    border-radius: 50px;
+    position: relative;
+  }
+
+  .CountryName {
+    position: absolute;
+    color: white;
+    font-family: "Nunito sans";
+    font-size: 60px;
+    left: 40px;
+    top: 30px;
+  }
+
+  .CityName {
+    position: absolute;
+    color: white;
+    font-family: "Nunito sans";
+    font-size: 35px;
+    left: 40px;
+    top: 105px;
+  }
+
+  .ScheduleDate {
+    position: absolute;
+    color: white;
+    font-family: "Nunito sans";
+    font-size: 55px;
+    right: 40px;
+    top: 330px;
+  }
+}
+
+/**Laptops and PCS*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .MyTours {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .ScheduleCardSpacing {
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+
+  .ScheduleCard {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../Images/Korea.jpeg");
+    background-size: cover;
+    height: 420px;
+    border-radius: 50px;
+    position: relative;
+  }
+
+  .CountryName {
+    position: absolute;
+    color: white;
+    font-family: "Nunito sans";
+    font-size: 60px;
+    left: 40px;
+    top: 30px;
+  }
+
+  .CityName {
+    position: absolute;
+    color: white;
+    font-family: "Nunito sans";
+    font-size: 35px;
+    left: 40px;
+    top: 105px;
+  }
+
+  .ScheduleDate {
+    position: absolute;
+    color: white;
+    font-family: "Nunito sans";
+    font-size: 55px;
+    right: 40px;
+    top: 330px;
+  }
+}
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1440px) {
+  .MyTours {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .ScheduleCardSpacing {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+
+  .ScheduleCard {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../Images/Korea.jpeg");
+    background-size: cover;
+    height: 500px;
+    border-radius: 50px;
+    position: relative;
+  }
+
+  .CountryName {
+    position: absolute;
+    color: white;
+    font-family: "Nunito sans";
+    font-size: 60px;
+    left: 40px;
+    top: 30px;
+  }
+
+  .CityName {
+    position: absolute;
+    color: white;
+    font-family: "Nunito sans";
+    font-size: 35px;
+    left: 40px;
+    top: 120px;
+  }
+
+  .ScheduleDate {
+    position: absolute;
+    color: white;
+    font-family: "Nunito sans";
+    font-size: 55px;
+    right: 40px;
+    top: 400px;
+  }
+}
